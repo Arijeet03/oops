@@ -3,12 +3,10 @@ calling different constructors. Also implement constructors with default argumen
 
 #include <iostream>
 using namespace std;
-
 class Rectangle {
 private:
     double length;
     double breadth;
-
 public:
     Rectangle(double len = 0, double brd = 0) : length(len), breadth(brd) {} 
     double calculateArea() { 
